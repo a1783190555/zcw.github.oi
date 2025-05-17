@@ -65,14 +65,27 @@ python interface.py
 
 ## 文档目录
 ```
-├── config.yaml        # 系统参数配置
-├── core/              # 核心算法模块
-│   ├── preprocessing.py  # 图像预处理
-│   └── focus_eval.py     # 清晰度评价
-├── test/              # 测试工具集
-│   ├── base_tester.py    # 测试基类
-│   └── performance_test.py # 性能对比
-└── interface.py       # 主界面程序
+PROJECT/
+├── core/ # 核心算法模块
+│ ├── pycache/ # Python编译缓存
+│ ├── init.py # 包初始化文件
+│ ├── autofocus.py # 自动对焦算法实现
+│ ├── focus_eval.py # 清晰度评价算法
+│ └── preprocessing.py # 图像预处理模块
+├── gui/ # 图形界面相关
+│ ├── pycache/
+│ ├── init.py
+│ ├── config.py # 配置管理模块
+│ ├── config.yaml # 系统配置文件
+│ └── interface.py # 主界面程序
+├── test/ # 测试套件
+│ ├── pycache/
+│ ├── init.py
+│ ├── base_tester.py # 测试基类
+│ ├── correlation_analysis.py # 算法相关性分析
+│ ├── denoise_test.py # 去噪性能测试
+│ └── performance_test.py # 算法性能对比
+└── requirements.txt # 依赖库清单
 ```
 
 ## 问题反馈
