@@ -2,7 +2,6 @@
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8%2B-blue)](https://www.python.org/)
 [![OpenCV](https://img.shields.io/badge/OpenCV-4.5%2B-green)](https://opencv.org/)
-[![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 **项目演示**  
 ![GUI界面截图](image.png) <!-- 需替换实际截图路径 -->
