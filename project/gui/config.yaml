@@ -1,0 +1,18 @@
+processing:
+  preprocessing:
+    target_size: [1024, 1024]
+  denoise:
+    thresholds:
+      light: 500
+      medium: 1000
+
+evaluation:
+  weights: [0.4, 0.6]
+  brightness_threshold: 80
+
+autofocus:
+  coarse_step: 5
+  thread_pool:
+    use_cpu_count: true
+    max_workers: null
+    
