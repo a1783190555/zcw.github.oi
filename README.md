@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/badge/license-MIT-orange)](LICENSE)
 
 **项目演示**  
-![GUI界面截图](docs/screenshot.png) <!-- 需替换实际截图路径 -->
+![GUI界面截图](image.png) <!-- 需替换实际截图路径 -->
 
 ## 项目简介
 面向工业显微镜图像开发的全自动聚焦系统，实现：
